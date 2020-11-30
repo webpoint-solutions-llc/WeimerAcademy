@@ -1425,7 +1425,7 @@ button#slick-slide-control03 {
 }
 
 .home-apply-section-wrapper {
-  padding-left: 10%;
+  padding: 10% 0 10% 10%;
   height: 100%;
   display: flex;
   flex-direction: column;
@@ -1471,7 +1471,7 @@ button#slick-slide-control03 {
 }
 
 .about-academy-life h1 {
-  font-family: "Kumbh Sans", fallback, sans-serif;
+  font-family: "KumbhSans", fallback sans-serif;
   font-style: normal;
   font-weight: bold;
   font-size: 10.8rem;
@@ -1507,7 +1507,7 @@ button#slick-slide-control03 {
 }
 
 .true-education-wrapper h1 {
-  font-family: "Kumbh Sans", fallback, sans-serif;
+  font-family: "KumbhSans", fallback sans-serif;
   font-style: normal;
   font-weight: bold;
   font-size: 10rem;
@@ -1615,18 +1615,12 @@ button#slick-slide-control03 {
   height: 100%;
 }
 
-/* .true-education-photos-right img {
-  width: 100%;
-  height: auto;
-} */
-
 .true-education-grid-2 {
   width: 100%;
   height: 100%;
   display: flex;
 
   background: #ffffff;
-  padding-top: 15.3rem;
 }
 
 .true-education-grid-2-left {
@@ -1697,7 +1691,7 @@ button#slick-slide-control03 {
 }
 
 .about-daily-life-top-wrapper h1 {
-  font-family: "Kumbh Sans", fallback, sans-serif;
+  font-family: "KumbhSans", fallback sans-serif;
   font-style: normal;
   font-weight: bold;
   font-size: 100px;
@@ -1722,6 +1716,7 @@ button#slick-slide-control03 {
   flex-grow: 1;
   height: 100%;
   object-fit: cover;
+  transform: scale(1.05);
 }
 
 .daily-life-top-para {
@@ -1812,6 +1807,7 @@ button#slick-slide-control03 {
   width: 100%;
   height: auto;
   padding-top: 15.9rem;
+  transform: scale(1.05);
 }
 
 .daily-life-bottom-container-para-top p {
@@ -1861,7 +1857,7 @@ button#slick-slide-control03 {
 }
 
 .beyond-classroom-wrapper-top h1 {
-  font-family: "Kumbh Sans", fallback, sans-serif;
+  font-family: "KumbhSans", fallback sans-serif;
   font-style: normal;
   font-weight: bold;
   font-size: 10rem;
@@ -1887,7 +1883,7 @@ button#slick-slide-control03 {
 }
 
 .beyond-classroom-left {
-  flex: 1 1 50%;
+  flex: 1 1 52%;
 }
 
 .beyond-classroom-left p {
@@ -1903,14 +1899,21 @@ button#slick-slide-control03 {
   display: flex;
 }
 
+.beyond-classroom-wrapper-top-paras-images1,
+.beyond-classroom-wrapper-top-paras-images2 {
+  flex: 1 1 50%;
+}
+
 .beyond-classroom-wrapper-top-paras-images1 > img {
   width: 100%;
   height: auto;
+  transform: scale(1.06);
 }
 
 .beyond-classroom-wrapper-top-paras-images2 > img {
   width: 100%;
   height: auto;
+  transform: scale(1.06);
 }
 
 .classroom-quote-icons {
@@ -2059,7 +2062,7 @@ button#slick-slide-control03 {
 
 .beyond-bottom-right1 p {
   font-style: normal;
-  font-weight: normal;
+  font-weight: 300;
   font-size: 1.8rem;
   line-height: 2.644rem;
   color: var(--primary-color);
@@ -2160,7 +2163,7 @@ button#slick-slide-control03 {
 }
 
 .about-heal-top h1 {
-  font-family: "Kumbh Sans", fallback, sans-serif;
+  font-family: "KumbhSans", fallback sans-serif;
   font-style: normal;
   font-weight: bold;
   font-size: 10rem;
@@ -2252,9 +2255,9 @@ button#slick-slide-control03 {
 }
 
 .about-kindness-wrapper-top {
-  width: 90%;
+  width: 100%;
   display: flex;
-  margin: 0 auto;
+  margin: 10% auto;
   border-bottom: 1px solid #c7cddb;
 }
 
@@ -2264,7 +2267,9 @@ button#slick-slide-control03 {
 }
 
 .about-kindness-top-left {
-  flex: 1 0 30%;
+  flex: 1 0 50%;
+  margin-right: 10%;
+  margin-bottom: 10rem;
 }
 
 .about-kindness-top-right {
@@ -2272,7 +2277,6 @@ button#slick-slide-control03 {
   flex-direction: column;
   justify-content: center;
   flex: 1 0 50%;
-  margin-left: 30%;
 }
 
 .kindness-quote-icon img {
@@ -2282,18 +2286,41 @@ button#slick-slide-control03 {
 
 .about-kindness-top-left-top {
   display: flex;
-  align-items: flex-end;
+  align-items: flex-start;
+}
+
+.about-kindness-top-left-top1 {
+  width: 100%;
+  height: 100%;
+}
+.about-kindness-top-left-top2 {
+  width: 100%;
+  height: 100%;
 }
 
 .about-kindness-top-left-top img {
   width: 100%;
   height: 100%;
   object-fit: cover;
+  transform: scale(1.05);
 }
 
 .about-kindness-top-left-bottom {
   display: flex;
   align-items: flex-start;
+}
+
+.about-kindness-top-left-bottom1,
+.about-kindness-top-left-bottom2 {
+  width: 100%;
+  height: 100%;
+}
+
+.about-kindness-top-left-bottom1 img,
+.about-kindness-top-left-bottom2 img {
+  width: 100%;
+  height: 100%;
+  transform: scale(1.06);
 }
 
 .kindness-quote > p:first-child {
@@ -2326,7 +2353,6 @@ button#slick-slide-control03 {
 }
 
 .about-kindness-wrapper-bottom {
-  padding-top: 20rem;
   width: 80%;
   margin: 0 auto;
 }
@@ -2339,7 +2365,8 @@ button#slick-slide-control03 {
 
 .about-kindness-wrapper-bottom-img img {
   max-width: 100%;
-  height: auto;
+  height: 100%;
+  transform: scale(1.06);
 }
 
 .about-kindness-wrapper-bottom-paras > p:first-child {
@@ -2668,6 +2695,10 @@ button#slick-slide-control03 {
     height: 36.4rem;
   }
 
+  .true-education-wrapper h4 {
+    padding-bottom: 28rem;
+  }
+
   .true-education-photos-left {
     margin-bottom: 50%;
   }
@@ -2690,7 +2721,7 @@ button#slick-slide-control03 {
 .faculty-staff h1 {
   padding-top: 27rem;
   padding-bottom: 7.5rem;
-  font-family: "Kumbh Sans" fallback, sans-serif;
+  font-family: "KumbhSans", fallback sans-serif;
   font-style: normal;
   font-weight: bold;
   font-size: 10.8rem;
@@ -2826,7 +2857,7 @@ button#slick-slide-control03 {
 
 .faculty-members-email a {
   font-style: normal;
-  font-weight: normal;
+  font-weight: 400;
   font-size: 1.8rem;
   line-height: 169.37%;
   color: var(--primary-color);
@@ -2848,22 +2879,6 @@ button#slick-slide-control03 {
     transform: rotate(180deg);
   }
 }
-/* @keyframes facultyDescription {
-  from {
-    transform: translateY(0);
-    -webkit-transform: translateY(0);
-    -moz-transform: translateY(0);
-    -ms-transform: translateY(0);
-    -o-transform: translateY(0);
-  }
-  to {
-    transform: translateY(-100%);
-    -webkit-transform: translateY(-100%);
-    -moz-transform: translateY(-100%);
-    -ms-transform: translateY(-100%);
-    -o-transform: translateY(-100%);
-  }
-} */
 
 .about-contact {
   width: 100%;
@@ -2875,7 +2890,7 @@ button#slick-slide-control03 {
 }
 
 .about-contact-wrapper > h1 {
-  font-family: "Kumbh Sans" fallback, sans-serif;
+  font-family: "KumbhSans", fallback sans-serif;
   font-style: normal;
   font-weight: bold;
   font-size: 10.8rem;
@@ -2906,11 +2921,11 @@ button#slick-slide-control03 {
 
 .contact-page-left {
   flex: 1 1 50%;
-  margin-left: 10%;
+  padding-left: 10%;
 }
 
 .contact-page-left h1 {
-  font-family: "Kumbh Sans" fallback, sans-serif;
+  font-family: "KumbhSans", fallback sans-serif;
   font-style: normal;
   font-weight: bold;
   font-size: 6.2rem;
@@ -2927,7 +2942,7 @@ button#slick-slide-control03 {
 
 .input-wrapper label {
   font-style: normal;
-  font-weight: normal;
+  font-weight: 400;
   font-size: 1.4rem;
   line-height: 1.6rem;
   color: #172b4d;
@@ -3010,7 +3025,7 @@ button#slick-slide-control03 {
 
 .contact-company-wrapper a,
 .contact-company-wrapper p {
-  font-family: "Kumbh Sans" fallback, sans-serif;
+  font-family: "KumbhSans", fallback sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 2.7rem;
@@ -3137,7 +3152,7 @@ button#slick-slide-control03 {
 }
 
 .weipray h1 {
-  font-family: "Kumbh Sans" fallback, sans-serif;
+  font-family: "KumbhSans", fallback sans-serif;
   font-style: normal;
   font-weight: bold;
   font-size: 10.8rem;
@@ -3178,7 +3193,7 @@ button#slick-slide-control03 {
 
 .weipray-desc-left-paras p {
   font-style: normal;
-  font-weight: normal;
+  font-weight: 400;
   font-size: 2.4rem;
   line-height: 3.8rem;
   color: var(--primary-color);
@@ -3321,7 +3336,7 @@ button#slick-slide-control03 {
 }
 
 .weipray-contacts-container .weipray-phone a {
-  font-family: "Kumbh Sans" fallback, sans-serif;
+  font-family: "KumbhSans", fallback sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 3.2rem;
@@ -3339,7 +3354,7 @@ button#slick-slide-control03 {
   flex-direction: column;
 }
 .weipray-contacts-container .weipray-email a {
-  font-family: "Kumbh Sans" fallback, sans-serif;
+  font-family: "KumbhSans", fallback sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 3.2rem;
@@ -3357,7 +3372,7 @@ button#slick-slide-control03 {
 }
 
 .resources-calender h1 {
-  font-family: "Kumbh Sans" fallback, sans-serif;
+  font-family: "KumbhSans", fallback sans-serif;
   font-style: normal;
   font-weight: bold;
   font-size: 10.8rem;
@@ -3417,7 +3432,7 @@ button#slick-slide-control03 {
 }
 
 .months-name h2 {
-  font-family: "Kumbh Sans" fallback, sans-serif;
+  font-family: "KumbhSans", fallback sans-serif;
   font-style: normal;
   font-weight: bold;
   font-size: 3.5rem;
@@ -3720,7 +3735,7 @@ button#slick-slide-control03 {
 }
 
 .admission-docs h1 {
-  font-family: "Kumbh Sans" fallback, sans-serif;
+  font-family: "KumbhSans", fallback sans-serif;
   font-style: normal;
   font-weight: bold;
   font-size: 10.8rem;
@@ -3763,6 +3778,17 @@ button#slick-slide-control03 {
   padding-top: 11.6rem;
 }
 
+.admission-docs-instructions p:last-child {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 2rem;
+  line-height: 3.178rem;
+  color: var(--primary-color);
+  padding-bottom: 3rem;
+  padding-left: 15%;
+  width: 70%;
+}
+
 .admission-docs-instructions:not(:first-child) {
   padding-bottom: 16.3rem;
 }
@@ -3780,7 +3806,7 @@ button#slick-slide-control03 {
 
 .admission-docs-links a {
   font-style: normal;
-  font-weight: normal;
+  font-weight: 400;
   font-size: 2rem;
   line-height: 240%;
   color: #7d7d7d;
@@ -3884,7 +3910,7 @@ button#slick-slide-control03 {
 }
 
 .apply > h1 {
-  font-family: "Kumbh Sans" fallback, sans-serif;
+  font-family: "KumbhSans", fallback sans-serif;
   font-style: normal;
   font-weight: bold;
   font-size: 10.8rem;
@@ -3992,7 +4018,7 @@ button#slick-slide-control03 {
 }
 
 .instructions h1 {
-  font-family: "Kumbh Sans" fallback, sans-serif;
+  font-family: "KumbhSans", fallback sans-serif;
   font-style: normal;
   font-weight: bold;
   font-size: 10.8rem;
@@ -4196,7 +4222,7 @@ button#slick-slide-control03 {
 }
 
 .blog-archieve h1 {
-  font-family: "Kumbh Sans" fallback, sans-serif;
+  font-family: "KumbhSans", fallback sans-serif;
   font-style: normal;
   font-weight: bold;
   font-size: 10.8rem;
@@ -4234,6 +4260,9 @@ button#slick-slide-control03 {
   display: flex;
   width: 100%;
 }
+.blog-single-post-container:first-child > .single-blog-post:first-child {
+  background: var(--bg-yellow);
+}
 
 .single-blog-post {
   background: #ffffff;
@@ -4241,6 +4270,9 @@ button#slick-slide-control03 {
   border-radius: 8px;
   flex: 1 1 50%;
   margin-bottom: 3rem;
+}
+
+.single-blog-post:first-child {
   margin-right: 3rem;
 }
 
@@ -4335,6 +4367,9 @@ button#slick-slide-control03 {
   .blog-archieve h1 {
     font-size: 6rem;
   }
+  .single-blog-post:first-child {
+    margin-right: 1.5rem;
+  }
 }
 
 @media only screen and (max-width: 500px) {
@@ -4369,7 +4404,7 @@ button#slick-slide-control03 {
 }
 
 .twentytwenty-mission-trips-info h1 {
-  font-family: "Kumbh Sans" fallback, sans-serif;
+  font-family: "KumbhSans", fallback sans-serif;
   font-style: normal;
   font-weight: bold;
   font-size: 5.8rem;
@@ -4381,7 +4416,7 @@ button#slick-slide-control03 {
 }
 
 .twentytwenty-mission-trips-info a {
-  font-family: "Kumbh Sans" fallback, sans-serif;
+  font-family: "KumbhSans", fallback sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 1.6rem;
@@ -4463,12 +4498,12 @@ button#slick-slide-control03 {
 }
 
 .twentytwenty-blog-photo-container h2 {
-  font-family: "Kumbh Sans" fallback, sans-serif;
+  font-family: "KumbhSans", fallback sans-serif;
   font-style: normal;
-  font-weight: bold;
+  font-weight: 500;
   font-size: 6.2rem;
   line-height: 103.9%;
-  color: #000000;
+  color: var(--primary-color);
   padding-top: 17.2rem;
   padding-bottom: 6.3rem;
 }
@@ -4523,15 +4558,30 @@ button#slick-slide-control03 {
   margin-top: 12rem;
 }
 
+.comments-number {
+  display: flex;
+  border-bottom: 1px solid #c7cddb;
+  padding-bottom: 4.5rem;
+}
+
 .comments-number h1 {
-  font-family: "Kumbh Sans" fallback, sans-serif;
+  font-family: "KumbhSans", fallback sans-serif;
   font-style: normal;
   font-weight: bold;
   font-size: 6.2rem;
   line-height: 103.9%;
   color: var(--primary-color);
-  padding-bottom: 4.5rem;
-  border-bottom: 1px solid #c7cddb;
+}
+
+.comments-number h3 {
+  font-family: "KumbhSans", fallback sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 4.1rem;
+  line-height: 103.9%;
+  color: var(--primary-color);
+  opacity: 0.5;
+  padding-left: 1.5rem;
 }
 
 .commentedby {
@@ -4676,6 +4726,11 @@ button#slick-slide-control03 {
   .comments-number h1 {
     font-size: 5.2rem;
   }
+  .comments-number h3 {
+    font-size: 3.1rem;
+
+    padding-left: 1.2rem;
+  }
   .commentedby p {
     font-size: 1.6rem;
     line-height: 158.88%;
@@ -4709,6 +4764,11 @@ button#slick-slide-control03 {
 
   .comments-number h1 {
     font-size: 3.5rem;
+  }
+  .comments-number h3 {
+    font-size: 2.4rem;
+
+    padding-left: 0.8rem;
   }
 
   .commentedby p {
@@ -4747,7 +4807,7 @@ button#slick-slide-control03 {
 }
 
 .twentynineteen-mission-trips-info h1 {
-  font-family: "Kumbh Sans" fallback, sans-serif;
+  font-family: "KumbhSans", fallback sans-serif;
   font-style: normal;
   font-weight: bold;
   font-size: 5.8rem;
@@ -4758,7 +4818,7 @@ button#slick-slide-control03 {
 }
 
 .twentynineteen-mission-trips-info h3 {
-  font-family: "Kumbh Sans" fallback, sans-serif;
+  font-family: "KumbhSans", fallback sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 2.8rem;
@@ -4803,7 +4863,7 @@ button#slick-slide-control03 {
 }
 
 .mission-trip-vid-container h1 {
-  font-family: "Kumbh Sans" fallback, sans-serif;
+  font-family: "KumbhSans", fallback sans-serif;
   font-style: normal;
   font-weight: bold;
   font-size: 6.2rem;
@@ -4819,6 +4879,7 @@ button#slick-slide-control03 {
   object-fit: cover;
   margin-top: 8rem;
   margin-bottom: 13rem;
+  transform: scale(1.05);
 }
 
 .mission-trip-vid-container a {
@@ -4892,6 +4953,15 @@ button#slick-slide-control03 {
   width: 100%;
   height: 50%;
   bottom: 0;
+}
+
+.trip-places-top1 > .trip-places-overlay-container {
+  background: linear-gradient(
+    180deg,
+    rgba(253, 210, 71, 0) 0%,
+    rgba(253, 210, 71, 0.76) 100%
+  );
+  border-radius: 8px;
 }
 
 .trip-places-overlay-container h2 {
@@ -5010,7 +5080,7 @@ button#slick-slide-control03 {
 }
 
 .twentyeighteen-mission-trip h1 {
-  font-family: "Kumbh Sans" fallback, sans-serif;
+  font-family: "KumbhSans", fallback sans-serif;
   font-style: normal;
   font-weight: bold;
   font-size: 5.8rem;
