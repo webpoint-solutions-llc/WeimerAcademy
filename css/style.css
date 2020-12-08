@@ -1719,7 +1719,7 @@ button#slick-slide-control03 {
   transform: scale(1.05);
 }
 
-.daily-life-top-para {
+.daily-life-top-para p {
   font-style: normal;
   font-weight: normal;
   font-size: 2rem;
@@ -3204,6 +3204,7 @@ button#slick-slide-control03 {
 
 .weipray-desc-left-paras p:last-child {
   width: 85%;
+  font-size: 2rem;
 }
 
 .weipray-desc-right {
@@ -3356,7 +3357,7 @@ button#slick-slide-control03 {
 .weipray-contacts-container .weipray-email a {
   font-family: "KumbhSans", fallback sans-serif;
   font-style: normal;
-  font-weight: normal;
+  font-weight: 400;
   font-size: 3.2rem;
   line-height: 103.9%;
   color: var(--bg-secondary);
@@ -4021,7 +4022,7 @@ button#slick-slide-control03 {
   font-family: "KumbhSans", fallback sans-serif;
   font-style: normal;
   font-weight: bold;
-  font-size: 10.8rem;
+  font-size: 10rem;
   line-height: 103.9%;
   color: var(--primary-color);
   padding-top: 12rem;
