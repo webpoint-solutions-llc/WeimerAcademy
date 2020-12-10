@@ -2166,7 +2166,7 @@ button#slick-slide-control03 {
   font-family: "KumbhSans", fallback sans-serif;
   font-style: normal;
   font-weight: bold;
-  font-size: 10rem;
+  font-size: 8rem;
   line-height: 103.9%;
   color: var(--primary-color);
   padding-top: 16.9rem;
@@ -2467,7 +2467,7 @@ button#slick-slide-control03 {
     font-size: 8rem;
   }
   .about-heal-top h1 {
-    font-size: 8rem;
+    font-size: 6rem;
   }
   .beyond-classroom-quote-2 p {
     font-size: 2.1rem;
@@ -2508,21 +2508,21 @@ button#slick-slide-control03 {
     font-size: 6rem;
   }
   .true-education-wrapper h1 {
-    font-size: 6rem;
+    font-size: 4rem;
     padding-bottom: 3.5rem;
     padding-top: 7.3rem;
   }
 
   .about-daily-life-top-wrapper h1 {
-    font-size: 6rem;
+    font-size: 4rem;
   }
 
   .beyond-classroom-wrapper-top h1 {
-    font-size: 6rem;
+    font-size: 4rem;
     padding-top: 5rem;
   }
   .about-heal-top h1 {
-    font-size: 6rem;
+    font-size: 4rem;
     padding-top: 6.9rem;
     padding-bottom: 2rem;
   }
@@ -2551,6 +2551,14 @@ button#slick-slide-control03 {
   }
   .daily-life-images {
     flex-direction: column;
+  }
+
+  .about-heal-top {
+    width: 90%;
+  }
+
+  .about-heal-bottom-paras {
+    width: 90%;
   }
 
   .daily-life-bottom-para {
@@ -3116,11 +3124,11 @@ button#slick-slide-control03 {
 
 @media screen and (max-width: 768px) {
   .about-contact-wrapper > h1 {
-    font-size: 6rem;
+    font-size: 4rem;
   }
 
   .faculty-staff h1 {
-    font-size: 8rem;
+    font-size: 6rem;
     padding-top: 5rem;
   }
 
@@ -3142,6 +3150,9 @@ button#slick-slide-control03 {
   .input-wrapper textarea {
     font-size: 1.3rem;
     line-height: 1.7rem;
+  }
+  .faculty-staff h1 {
+    font-size: 4rem;
   }
 }
 
@@ -3663,6 +3674,9 @@ button#slick-slide-control03 {
   .months-name h2 {
     font-size: 2.7rem;
   }
+  .weipray h1 {
+    font-size: 4rem;
+  }
 }
 
 @media screen and (max-width: 630px) {
@@ -3883,7 +3897,7 @@ button#slick-slide-control03 {
 
 @media screen and (max-width: 768px) {
   .admission-docs h1 {
-    font-size: 6rem;
+    font-size: 4rem;
     line-height: 103.9%;
   }
   .admission-docs-instructions p {
@@ -4366,7 +4380,7 @@ button#slick-slide-control03 {
     content: "";
   }
   .blog-archieve h1 {
-    font-size: 6rem;
+    font-size: 5rem;
   }
   .single-blog-post:first-child {
     margin-right: 1.5rem;
@@ -4687,6 +4701,14 @@ button#slick-slide-control03 {
 
     width: 80%;
   }
+
+  .comments-container {
+    width: 90%;
+  }
+  .submit-a-comment {
+    width: 90%;
+  }
+
   .commentedby p {
     font-size: 1.6rem;
     line-height: 158.88%;
@@ -4740,6 +4762,15 @@ button#slick-slide-control03 {
   .submit-a-comment textarea {
     width: 90%;
   }
+  .submit-a-comment h2 {
+    font-size: 1.8rem;
+  }
+  .submit-a-comment p {
+    font-size: 1.5rem;
+  }
+  .twentytwenty-mission-trip-info {
+    width: 90%;
+  }
 }
 
 @media screen and (max-width: 520px) {
@@ -4759,7 +4790,7 @@ button#slick-slide-control03 {
   }
 
   .twentytwenty-blog-photo-container h2 {
-    font-size: 3.5rem;
+    font-size: 3rem;
     padding-top: 10rem;
   }
 
@@ -5071,6 +5102,9 @@ button#slick-slide-control03 {
   }
   .mission-trip-vid-container {
     width: 95%;
+  }
+  .twentynineteen-mission-trip-para p {
+    padding-left: 5%;
   }
 }
 

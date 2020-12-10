@@ -1,0 +1,749 @@
+/* :root {
+  --primary-color: #021032;
+  --bg-yellow: #fdd247;
+  --bg-secondary: #2e2e36;
+} */
+
+.weipray {
+  width: 100%;
+}
+
+.weipray h1 {
+  font-family: "Kumbh Sans" fallback, sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 10.8rem;
+  line-height: 103.9%;
+  color: var(--primary-color);
+  padding-top: 15.8rem;
+  margin-left: 10%;
+  padding-bottom: 7.5rem;
+}
+
+.weipray-wrapper {
+  width: 100%;
+  height: 34rem;
+}
+
+.weipray-wrapper img {
+  width: 100%;
+  height: 100%;
+  object-position: bottom;
+  object-fit: cover;
+}
+
+.weipray-desc-container {
+  display: flex;
+  width: 100%;
+}
+
+.weipray-desc-left {
+  background: var(--bg-yellow);
+  flex: 1 1 50%;
+}
+
+.weipray-desc-left-paras {
+  margin-top: 16.8rem;
+  padding-left: 10%;
+  padding-bottom: 13.6rem;
+}
+
+.weipray-desc-left-paras p {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 2.4rem;
+  line-height: 3.8rem;
+  color: var(--primary-color);
+  padding-bottom: 3rem;
+  width: 78%;
+  padding-left: 12%;
+}
+
+.weipray-desc-left-paras p:last-child {
+  width: 85%;
+}
+
+.weipray-desc-right {
+  flex: 1 1 50%;
+  background: #f3f6fc;
+}
+
+.weipray-quote-icons {
+  padding-top: 11.2rem;
+  margin-left: 10%;
+}
+
+.weipray-quote-icons img {
+  max-width: 100%;
+  height: auto;
+  margin-right: 1.4rem;
+  margin-bottom: 3rem;
+}
+
+.weipray-desc-right-paras p {
+  font-style: normal;
+  font-weight: 300;
+  font-size: 1.6rem;
+  line-height: 2.3rem;
+  color: var(--primary-color);
+  padding-left: 10%;
+  width: 70%;
+  padding-bottom: 3rem;
+}
+
+.weipray-parents-testimonials {
+  width: 100%;
+  background: #ffffff;
+}
+
+.weipray-parents-testimonial-container {
+  width: 80%;
+  margin: 0 auto;
+  display: flex;
+}
+
+.weipray-parents-testimonial-container:last-child {
+  margin-bottom: 22.4rem;
+}
+
+.weipray-parents-testimonial-container:first-child {
+  margin-top: 11.2rem;
+}
+
+.weipray-parents-card {
+  background: #ffffff;
+  box-shadow: 0px 14px 27px rgba(173, 186, 217, 0.3);
+  border-radius: 8px;
+  width: 37.6rem;
+  margin-right: 1.9rem;
+  margin-bottom: 3.8rem;
+}
+
+.weipray-testimonial-quote {
+  padding-top: 6.4rem;
+  display: flex;
+  margin-left: 5.7rem;
+  padding-bottom: 1.94rem;
+}
+
+.weipray-testimonial-quote img {
+  max-width: 100%;
+  height: auto;
+  margin-right: 1rem;
+}
+
+.weipray-parents-card p {
+  font-style: normal;
+  font-weight: 300;
+  font-size: 1.8rem;
+  line-height: 2.6rem;
+  color: var(--primary-color);
+  padding-left: 5.7rem;
+  padding-bottom: 1.4rem;
+  width: 80%;
+}
+
+.weipray-parents-card h3 {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 1.8rem;
+  line-height: 156.4%;
+  color: var(--primary-color);
+  padding-left: 5.7rem;
+}
+
+.weipray-parents-card h4 {
+  font-style: normal;
+  font-weight: 300;
+  font-size: 1.4rem;
+  line-height: 2.19rem;
+  color: var(--primary-color);
+  padding-left: 5.7rem;
+  padding-bottom: 6.9rem;
+}
+
+.weipray-contacts {
+  width: 100%;
+}
+
+.weipray-contacts-container {
+  width: 100%;
+  display: flex;
+}
+
+.weipray-phone {
+  flex: 1 1 50%;
+  background: var(--bg-yellow);
+}
+
+.weipray-contacts-container h5 {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 2.2rem;
+  line-height: 103.9%;
+  color: var(--bg-secondary);
+  opacity: 0.5;
+  padding-top: 8.4rem;
+  padding-left: 10%;
+  padding-bottom: 1.1rem;
+}
+
+.weipray-contacts-container .weipray-phone h5 {
+  padding-left: 20%;
+}
+
+.weipray-contacts-container .weipray-phone a {
+  font-family: "Kumbh Sans" fallback, sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 3.2rem;
+  line-height: 103.9%;
+  color: var(--bg-secondary);
+  text-decoration: none;
+  padding-left: 20%;
+  padding-bottom: 8.9rem;
+}
+
+.weipray-email {
+  background: #f3f6fc;
+  flex: 1 1 50%;
+  display: flex;
+  flex-direction: column;
+}
+.weipray-contacts-container .weipray-email a {
+  font-family: "Kumbh Sans" fallback, sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 3.2rem;
+  line-height: 103.9%;
+  color: var(--bg-secondary);
+  text-decoration: none;
+  padding-left: 10%;
+  margin-bottom: 8.9rem;
+}
+
+/* resources calender */
+.resources-calender {
+  width: 100%;
+  background: #ffffff;
+}
+
+.resources-calender h1 {
+  font-family: "Kumbh Sans" fallback, sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 10.8rem;
+  line-height: 103.9%;
+  padding-top: 15.8rem;
+  padding-bottom: 7.5rem;
+  color: var(--primary-color);
+  margin-left: 10%;
+}
+
+.resources-calender-hero {
+  width: 100%;
+  height: 34rem;
+  margin-bottom: 12.3rem;
+}
+
+.resources-calender-hero img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: bottom;
+}
+
+.weimer-calender {
+  width: 80%;
+  margin: auto;
+  padding-bottom: 13rem;
+}
+
+.weimer-calender img {
+  width: 100%;
+  height: auto;
+}
+
+/* weimer calaender 2020 Css */
+.weimer-calender-2020 {
+  width: 80%;
+  height: 100%;
+  margin: 10% auto;
+}
+
+.months-tab {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 2.4rem;
+}
+
+.months-changer {
+  display: flex;
+  align-items: center;
+}
+
+.months-name {
+  margin: 0 1.8rem;
+}
+
+.months-name h2 {
+  font-family: "Kumbh Sans" fallback, sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 3.5rem;
+  line-height: 103.9%;
+  color: #021032;
+}
+
+.print a {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 1.4rem;
+  line-height: 117.9%;
+  color: #021032;
+  text-decoration: none;
+  padding: 1rem 3.7rem;
+  background: #f3f6fc;
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+}
+
+.print a img {
+  margin-right: 5px;
+}
+
+.days-tab {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+  background: var(--bg-yellow);
+  border-radius: 1rem;
+}
+
+.calender-data {
+  border: 1px solid #edeef9;
+  box-sizing: border-box;
+  border-radius: 10px;
+}
+
+.name-of-days {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex: 1 1 14.28%;
+  height: 6.9rem;
+}
+.name-of-days:not(:last-child) {
+  border-right: 1px solid #ffffff;
+}
+
+.name-of-days h2 {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 1.8rem;
+  line-height: 117.9%;
+  text-align: center;
+  color: var(--primary-color);
+}
+
+.days-number {
+  width: 100%;
+  height: 100%;
+}
+
+.date-number-top {
+  display: flex;
+  justify-content: space-between;
+}
+.date-number-middle {
+  display: flex;
+  justify-content: space-between;
+}
+.date-number-bottom {
+  display: flex;
+  justify-content: space-between;
+}
+
+.date-numbers {
+  flex: 1 1 14.28%;
+  height: 9.5rem;
+  border-bottom: 1px solid #edeef9;
+}
+
+.date-numbers h5 {
+  font-style: normal;
+  font-weight: 300;
+  font-size: 1.4rem;
+  line-height: 117.9%;
+  color: var(--primary-color);
+  opacity: 0.8;
+  padding-top: 1.3rem;
+  padding-left: 1.3rem;
+}
+
+.date-numbers[data-disabled="disable"] h5 {
+  font-style: normal;
+  font-weight: 300;
+  font-size: 1.4rem;
+  line-height: 117.9%;
+  color: var(--primary-color);
+  opacity: 0.3;
+}
+
+.has-event {
+  background: rgba(253, 210, 71, 0.25);
+  border-radius: 3px;
+  border-top: 2px solid #fdd247;
+}
+.has-event p {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 1.4rem;
+  line-height: 1.8rem;
+  color: var(--primary-color);
+  opacity: 0.9;
+  padding-left: 1.3rem;
+  padding-top: 1.5rem;
+}
+
+.date-numbers:not(:last-child) {
+  border-right: 1px solid #edeef9;
+}
+
+@media screen and (max-width: 1200px) {
+  .resources-calender h1 {
+    font-size: 6rem;
+    line-height: 101.9%;
+  }
+
+  .weipray h1 {
+    font-size: 6rem;
+    line-height: 101.9%;
+  }
+  .weipray-desc-left-paras p {
+    font-size: 2.1rem;
+    line-height: 3.5rem;
+  }
+
+  .weipray-parents-card p {
+    font-size: 1.6rem;
+    width: 90%;
+  }
+}
+
+@media screen and (max-width: 1060px) {
+  .weipray-parents-card p {
+    padding-left: 2rem;
+  }
+
+  .weipray-parents-card h3 {
+    padding-left: 2rem;
+  }
+  .weipray-parents-card h4 {
+    padding-left: 2rem;
+  }
+
+  .weipray-testimonial-quote {
+    margin-left: 2rem;
+  }
+  .weipray-parents-testimonial-container {
+    width: 90%;
+  }
+  .weimer-calender-2020 {
+    width: 90%;
+  }
+  .has-event p {
+    font-size: 1.2rem;
+  }
+}
+
+@media screen and (max-width: 950px) {
+  .weipray-desc-left-paras p {
+    font-size: 1.9rem;
+    line-height: 3.2rem;
+    width: 90%;
+  }
+
+  .weipray-parents-testimonial-container {
+    width: 95%;
+  }
+
+  .weipray-desc-right-paras p {
+    font-size: 1.6rem;
+    line-height: 2.3rem;
+    color: var(--primary-color);
+    width: 90%;
+  }
+  .weipray-contacts-container .weipray-email a {
+    font-size: 2.6rem;
+  }
+  .weipray-contacts-container .weipray-phone a {
+    font-size: 2.6rem;
+  }
+  .has-event p {
+    padding-top: 1rem;
+    padding-left: 1rem;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .weipray-desc-container {
+    flex-direction: column;
+  }
+  .weipray-desc-right-paras p:last-child {
+    padding-bottom: 4rem;
+  }
+  .weipray-desc-left-paras p {
+    padding-left: 0%;
+  }
+  .weipray-parents-testimonial-container {
+    flex-wrap: wrap;
+  }
+  .weipray-parents-card {
+    width: 100%;
+    margin-right: 0;
+  }
+  .weipray-contacts-container .weipray-email a {
+    font-size: 2.3rem;
+  }
+  .weipray-contacts-container .weipray-phone a {
+    font-size: 2.3rem;
+  }
+  .name-of-days h2 {
+    font-size: 1.5rem;
+  }
+  .months-name h2 {
+    font-size: 2.7rem;
+  }
+}
+
+@media screen and (max-width: 630px) {
+  .weipray-contacts-container {
+    flex-direction: column;
+  }
+  .weipray-contacts-container .weipray-phone {
+    padding-bottom: 8.9rem;
+  }
+  .weipray-parents-testimonial-container:last-child {
+    margin-bottom: 11.1rem;
+  }
+  .weipray-contacts-container .weipray-phone h5 {
+    padding-left: 10%;
+  }
+
+  .weipray-contacts-container .weipray-phone a {
+    padding-left: 10%;
+  }
+  .date-numbers h5 {
+    padding-top: 1rem;
+    padding-left: 1rem;
+  }
+  .has-event p {
+    font-size: 1rem;
+    padding-top: 0.5rem;
+    line-height: 1.4rem;
+  }
+}
+
+@media screen and (max-width: 520px) {
+  .resources-calender h1 {
+    font-size: 4rem;
+  }
+  .weimer-calender {
+    width: 90%;
+
+    padding-bottom: 8rem;
+  }
+  .weimer-calender-2020 {
+    width: 95%;
+  }
+  .months-name {
+    margin: 0 1.2rem;
+  }
+  .print a {
+    padding: 1rem 2.5rem;
+  }
+}
+
+@media screen and (max-width: 460px) {
+  .months-name h2 {
+    font-size: 2.2rem;
+  }
+  .name-of-days h2 {
+    font-size: 1.1rem;
+  }
+  .has-event p {
+    font-size: 0.8rem;
+    padding-left: 0.3rem;
+  }
+  .months-name {
+    margin: 0 0.8rem;
+  }
+}
+
+/* resources admission documents css */
+.admission-docs {
+  width: 100%;
+  background: #ffffff;
+}
+
+.admission-docs h1 {
+  font-family: "Kumbh Sans" fallback, sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 10.8rem;
+  line-height: 103.9%;
+  color: var(--primary-color);
+  margin-left: 15%;
+
+  padding-top: 14.9rem;
+  padding-bottom: 7.5rem;
+}
+
+.admission-docs-wrapper {
+  width: 100%;
+  height: 34rem;
+}
+
+.admission-docs-wrapper img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: bottom;
+}
+
+.admission-docs-instructions {
+  width: 100%;
+  background: var(--bg-yellow);
+  height: 100%;
+}
+.admission-docs-instructions p {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 2.4rem;
+  line-height: 3.8rem;
+  color: var(--primary-color);
+  padding-bottom: 3rem;
+  padding-left: 15%;
+  width: 70%;
+}
+.admission-docs-instructions p:first-child {
+  padding-top: 11.6rem;
+}
+
+.admission-docs-instructions:not(:first-child) {
+  padding-bottom: 16.3rem;
+}
+
+.admission-docs-links {
+  width: 80%;
+  margin: 0 auto;
+  background: #ffffff;
+  box-shadow: 0px 14px 27px rgba(173, 186, 217, 0.3);
+  border-radius: 8px;
+  display: flex;
+  margin-bottom: 13rem;
+  margin-top: -6%;
+}
+
+.admission-docs-links a {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 2rem;
+  line-height: 240%;
+  color: #7d7d7d;
+  text-decoration: none;
+  text-transform: capitalize;
+  display: block;
+}
+
+.admission-docs-links-1 {
+  margin-left: 7rem;
+}
+
+.admission-docs-links-1,
+.admission-docs-links-2,
+.admission-docs-links-3 {
+  padding-top: 6.8rem;
+  padding-bottom: 8.3rem;
+  margin-right: 3.8rem;
+  flex: 1 1 33.33%;
+}
+
+@media screen and (max-width: 1305px) {
+  .admission-docs h1 {
+    font-size: 8rem;
+    line-height: 103.9%;
+  }
+  .admission-docs-instructions p {
+    font-size: 2.1rem;
+    line-height: 3.4rem;
+    width: 80%;
+  }
+  .admission-docs-links a {
+    font-size: 1.8rem;
+    line-height: 230%;
+  }
+  .admission-docs-links-1,
+  .admission-docs-links-2,
+  .admission-docs-links-3 {
+    margin-right: 2rem;
+  }
+}
+
+@media screen and (max-width: 1087px) {
+  .admission-docs-links a {
+    font-size: 1.6rem;
+    line-height: 220%;
+  }
+  .admission-docs-links {
+    width: 90%;
+  }
+  .admission-docs-links-1 {
+    margin-left: 4rem;
+  }
+}
+
+@media screen and (max-width: 890px) {
+  .admission-docs-links {
+    flex-direction: column;
+  }
+  .admission-docs-links-2,
+  .admission-docs-links-3,
+  .admission-docs-links-1 {
+    margin-left: 4rem;
+    padding-bottom: 1rem;
+    border-bottom: 1px solid #c7cddb;
+    padding-top: 1rem;
+  }
+  .admission-docs-links-3 {
+    border: none;
+    padding-bottom: 2rem;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .admission-docs h1 {
+    font-size: 6rem;
+    line-height: 103.9%;
+  }
+  .admission-docs-instructions p {
+    font-size: 1.9rem;
+    line-height: 3.1rem;
+    width: 90%;
+  }
+  .admission-docs-instructions p:first-child {
+    padding-top: 7.6rem;
+  }
+  .admission-docs-links a {
+    font-size: 1.4rem;
+    line-height: 220%;
+  }
+  .admission-docs-links {
+    margin-top: -15%;
+  }
+}
