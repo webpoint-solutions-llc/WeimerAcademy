@@ -3,27 +3,30 @@ const navSlide = () => {
     const nav = document.querySelector('.nav-links');
 
     const navLinks = document.querySelectorAll('.nav-links li');
+    console.log(navLinks)
+    const navMainLinks = document.querySelectorAll('.nav-main-links > li img');
    
+    
+  
+   const navUl =  document.querySelectorAll('.nav-main-links > li ul');
 //    toggle nav
     burger.addEventListener('click',()=>{
         nav.classList.toggle('nav-active');
 
-         // animation nav links
-    navLinks.forEach((link, index)=>{
-      
-        if (link.style.animation) {
-           link.style.animation = ''
-        } else {
-           link.style.animation = `navLinkFade 0.5s ease forwards ${index / 22 + 0.3}s`;
-        }
-       
-       })
+  
      
          // Burger animation
     burger.classList.toggle('toggle');
     });
   
-
+   navMainLinks.forEach((list, index)=> {
+     navMainLinks[index].addEventListener('click', ()=>{
+   
+     
+       navUl[index].classList.toggle('nav-ul-active');
+     
+     })
+   })
  
    
 }
@@ -110,12 +113,19 @@ $('.home-carosel-wrapper').slick({
     })
   
 
- 
-
-  
-
-
-
    }
 
    dropDownAnimation();
+
+  //  back-to-top
+  const backToTop = document.querySelector('.backtotop');
+
+window.addEventListener('scroll', () => {
+  if(window.scrollY > 1500) {
+    backToTop.classList.add("backtotop-active")
+  
+  }else{
+    backToTop.classList.remove("backtotop-active")
+  }
+
+})
